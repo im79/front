@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 
         DocSidebarToggle: function() {
-            console.log('grunting is cool. like it');
+            console.log('grunting- my frontend starts 6'); 
         }
     };
 

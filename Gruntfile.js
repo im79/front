@@ -29,6 +29,7 @@ module.exports = function(grunt) {
         files: ['my.css', 'my.js'],
         tasks: ['default'],
         options: {
+          livereload: true,
           spawn: false,
         },
       },
