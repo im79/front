@@ -1,0 +1,24 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "setting up main frontend framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im79/front.git"
+  },
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*"
+  },
+
+  "author": "im79",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im79/front/issues"
+  },
+  "homepage": "https://github.com/im79/front#readme"
+}
