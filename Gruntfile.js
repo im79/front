@@ -5,11 +5,11 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd HH:MM") %> */\n'
       },
       my_target: {
         files: {
-          'public/all.min.js': ['node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/bootstrap.js', 'my.js']
+			'public/all.min.js': ['node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js', 'my.js']
         }
       }
     },
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['my.css', 'my.js'],
+        files: ['my.css', 'my.js', 'Gruntfile.js'],
         tasks: ['default'],
         options: {
           livereload: true,

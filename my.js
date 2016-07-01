@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 
         DocSidebarToggle: function() {
-            console.log('grunting- my frontend starts 6'); 
+            console.log('Messagte: clean run'); 
         }
     };
 
