@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['my.css', 'my.js', 'Gruntfile.js'],
+        files: ['my.css', 'my.js', 'index.html', 'Gruntfile.js'],
         tasks: ['default'],
         options: {
           livereload: true,
