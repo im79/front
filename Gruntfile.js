@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-			'public/all.min.js': ['node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js', 'my.js']
+			'public/all.min.js': ['bower_components/jquery/dist/jquery.js', 'bower_components/bootstrap/dist/js/bootstrap.js', 'my.js']
         }
       }
     },
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'public/all.min.css': ['node_modules/bootstrap/dist/css/bootstrap.css', 'my.css']
+          'public/all.min.css': ['bower_components/bootstrap/dist/css/bootstrap.css', 'my.css']
         }
       }
     },

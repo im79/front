@@ -11,8 +11,6 @@
       "url":"git+https://github.com/im79/front.git"
    },
    "dependencies":{
-      "bootstrap":"*",
-      "jquery":"2.x"
    },
    "devDependencies":{
       "grunt":"~0.4.5",
