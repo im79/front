@@ -1,0 +1,15 @@
+{
+  "name": "front",
+  "description": "kratz kratz and twitt",
+  "main": "none",
+  "authors": [
+    "im79"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "latest"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/im79/front",
+  "private": true
+}
